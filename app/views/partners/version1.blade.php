@@ -3,7 +3,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">Our Partners</h1>
+						<h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">Samarbetspartners</h1>
 
 						<div id="partners">
 							<div class="item" data-animation-direction="from-bottom" data-animation-delay="250">

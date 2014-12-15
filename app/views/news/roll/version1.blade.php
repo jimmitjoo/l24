@@ -41,25 +41,5 @@
 									<p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.</p>
 								</div>
 							</div>
-							<div class="item col-sm-12" data-animation-direction="from-bottom" data-animation-delay="650">
-								<div class="image">
-									<a href="blog-detail.html">
-										<span class="btn btn-default"><i class="fa fa-file-o"></i> Read More</span>
-									</a>
-									<img src="http://placehold.it/766x515" alt="" />
-								</div>
-								<div class="tag"><i class="fa fa-file-text"></i></div>
-								<div class="info-blog">
-									<ul class="top-info">
-										<li><i class="fa fa-calendar"></i> July 05, 2014</li>
-										<li><i class="fa fa-comments-o"></i> 1</li>
-										<li><i class="fa fa-tags"></i> Location, Price, House</li>
-									</ul>
-									<h3>
-										<a href="blog-detail.html">House, location or price: What's the most important factor?</a>
-									</h3>
-									<p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.</p>
-								</div>
-							</div>
 						</div>
 						<!-- END LATEST NEWS -->

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="sv"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="sv"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="sv"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="sv"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
 
 	<!-- Page Title -->
-	<title>Cozy - HTML5 Template</title>
+	<title>Lediga lägenheter på Nirmea</title>
 
 	<meta name="keywords" content="real estate, responsive, retina ready, modern html5 template, bootstrap, css3" />
 	<meta name="description" content="Cozy - Responsive Real Estate HTML5 Template" />
@@ -46,7 +46,7 @@
     @include('master.header')
 
 
-    @yield('content')
+	@yield('content')
 
 
     @include('master.footer')
@@ -66,6 +66,9 @@
 	<!-- Template Scripts -->
 	<script src="/js/variables.js"></script>
 	<script src="/js/scripts.js"></script>
+
+	<!-- Home Grid Plugin -->
+	<script src="js/freewall.js"></script>
 
 	<!-- Agencies list -->
 	<script src="/js/agencies.js"></script>

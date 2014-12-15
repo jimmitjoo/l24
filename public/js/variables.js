@@ -8,7 +8,7 @@ var	properties_cluster_marker = "images/markers/coral-marker.png",     	//The UR
 	properties_selectedZoom = 14,								        //The zoom to apply when an property is selected
 	properties_mapInitialLatitude = 26.596433,					        //Properties map initial Latitude
 	properties_mapInitialLongitude = -98.451481,				        //Properties map initial Longitude
-	properties_viewMore = "View More",							        //Properties View More Button Text
+	properties_viewMore = "Läs mer",							        //Properties View More Button Text
 
 	agency_initialZoom = 3,	  							//The initial zoom when agencies map load
 	agency_selectedZoom = 14,							//The zoom to apply when an agency is selected
@@ -18,6 +18,6 @@ var	properties_cluster_marker = "images/markers/coral-marker.png",     	//The UR
 	
 	use_default_map_style = false,				//If true, default map style will be used
 	
-	twitter_username = "Envato",				//Replace with your own Twitter username
+	twitter_username = "nirmea",				//Replace with your own Twitter username
 	
-	mobileMenuTitle = "Menu";					//The title of the mobile menu
+	mobileMenuTitle = "Meny";					//The title of the mobile menu

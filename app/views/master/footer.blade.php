@@ -5,27 +5,27 @@
 					<div class="block col-sm-3">
 						<a href="index.html"><img src="images/logo.png" alt="Cozy Logo" /></a>
 						<br><br>
-						<p>Cozy is a simple clean and modern HTML template designed for Real Estate business. This template has a lot of useful features and it's highly customizable so you can turn it into your own awesome website.</p>
+						<p>Nirmea är en tjänst som hjälper dig hitta bostad snabbare utan att behöva ha någon kötid. Vi erbjuder både registrering i alla bostadsköer vi känner till samt möjlighet att få lägenhet via våra exklusiva fastighetsägare.</p>
 					</div>
 					<div class="block col-sm-3">
-						<h3>Contact Info</h3>
+						<h3>Kontakt</h3>
 						<ul class="footer-contacts">
-							<li><i class="fa fa-map-marker"></i> 24th Street, New York, USA</li>
-							<li><i class="fa fa-phone"></i> 00351 123 456 789</li>
-							<li><i class="fa fa-envelope"></i> <a href="mailto:email@yourbusiness.com">email@yourbusiness.com</a></li>
+							<li><i class="fa fa-map-marker"></i> Sandåsgatan 1, Kalmar</li>
+							<li><i class="fa fa-phone"></i> 0730-361 869</li>
+							<li><i class="fa fa-envelope"></i> <a href="mailto:info@nirmea.com">info@nirmea.com</a></li>
 						</ul>
 					</div>
 					<div class="block col-sm-3">
-						<h3>Helpful Links</h3>
+						<h3>Hjälpsamma länkar</h3>
 						<ul class="footer-links">
-							<li><a href="properties-list.html">All Properties Available</a></li>
-							<li><a href="agent-listing.html">Look for an Agent</a></li>
-							<li><a href="agency-listing.html">Look for an Agency</a></li>
-							<li><a href="pricing-tables.html">See our Pricing Tables</a></li>
+							<li><a href="properties-list.html">Alla lediga lägenheter</a></li>
+							<li><a href="agent-listing.html">Leta efter en lägenhet</a></li>
+							<li><a href="agency-listing.html">Tips för att hitta lägenhet</a></li>
+							<li><a href="pricing-tables.html">Se våra prenumerationer</a></li>
 						</ul>
 					</div>
 					<div class="block col-sm-3">
-						<h3>Latest Listings</h3>
+						<h3>Senast lediga lägenheter</h3>
 						<ul class="footer-listings">
 							<li>
 								<div class="image">
@@ -56,7 +56,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							&copy; 2014 Cozy - Real Estate template. All rights reserved. Developed by <a href="http://www.wiselythemes.com" target="_blank">WiselyThemes</a>
+							&copy; 2014 Nirmea AB. Webbdesign av <a rel="nofollow" href="http://www.wiselythemes.com" target="_blank">WiselyThemes</a>
 							
 							<!-- BEGIN SOCIAL NETWORKS -->
 							<ul class="social-networks">

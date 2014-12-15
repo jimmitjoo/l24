@@ -122,7 +122,7 @@ var Cozy;
                 /**
                  * Make the navbar stick to the top on scroll
                  */
-                $tis.stickyNav();
+                //$tis.stickyNav();
 
                 /**
                  * If #content has class colored, make the sidebar with a minimun height equal to #main height

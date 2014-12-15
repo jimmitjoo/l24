@@ -3,7 +3,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">New Properties Available</h1>
+						<h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">Lediga lägenheter</h1>
 
 						<div id="new-properties-slider" class="owl-carousel carousel-style1">
 							<div class="item" data-animation-direction="from-bottom" data-animation-delay="250">
@@ -15,8 +15,8 @@
 									<img src="http://placehold.it/760x670" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Sale
-									<span>$950,000</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 2150 Sq Ft</li>
@@ -31,11 +31,11 @@
 										<h3>Stunning Villa with 5 bedrooms</h3>
 										<span class="location">Miami Beach, Florida</span>
 									</a>
-									<img src="http://placehold.it/760x670" alt="" />
+									<img src="http://placehold.it/800x600" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Sale
-									<span>$1,253,000</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 3470 Sq Ft</li>
@@ -53,8 +53,8 @@
 									<img src="http://placehold.it/760x670" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Sale
-									<span>$560,000</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 1800 Sq Ft</li>
@@ -69,11 +69,11 @@
 										<h3>Modern construction with parking space</h3>
 										<span class="location">Midtown, New York</span>
 									</a>
-									<img src="http://placehold.it/760x670" alt="" />
+									<img src="http://placehold.it/860x370" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Rent
-									<span>$850</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 1300 Sq Ft</li>
@@ -91,8 +91,8 @@
 									<img src="http://placehold.it/760x670" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Sale
-									<span>$846,000</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 1580 Sq Ft</li>
@@ -104,14 +104,14 @@
 							<div class="item">
 								<div class="image">
 									<a href="properties-detail.html" class="info">
-										<h3>3 bedroom villa with garage for rent</h3>
+										<h3>3 bedroom villa with garage Uthyres</h3>
 										<span class="location">Bal Harbour, Florida</span>
 									</a>
 									<img src="http://placehold.it/760x670" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Rent
-									<span>$1500</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 2000 Sq Ft</li>
@@ -129,8 +129,8 @@
 									<img src="http://placehold.it/760x670" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Sale
-									<span>$2,120,000</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 3120 Sq Ft</li>
@@ -148,8 +148,8 @@
 									<img src="http://placehold.it/760x670" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Sale
-									<span>$975,000</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 1200 Sq Ft</li>
@@ -167,8 +167,8 @@
 									<img src="http://placehold.it/760x670" alt="" />
 								</div>
 								<div class="price">
-									<i class="fa fa-home"></i>For Sale
-									<span>$650,000</span>
+									<i class="fa fa-home"></i>Uthyres
+									<span>4 500 kr/mån</span>
 								</div>
 								<ul class="amenities">
 									<li><i class="icon-area"></i> 1000 Sq Ft</li>

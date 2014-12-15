@@ -5,18 +5,19 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<ul id="top-info">
-								<li>Phone: 800-123-4567</li>
-								<li>Email: <a href="mailto:hello@yourcompany.com">hello@yourcompany.com</a></li>
+								<li>Telefon: 0730-361 869</li>
+								<li>E-post: <a href="mailto:info@nirmea.com">info@nirmea.com</a></li>
 							</ul>
 
 							<ul id="top-buttons">
-								<li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
-								<li><a href="#"><i class="fa fa-pencil-square-o"></i> Register</a></li>
+								<li><a href="#"><i class="fa fa-sign-in"></i> Logga in</a></li>
+								<li><a href="#"><i class="fa fa-pencil-square-o"></i> Registrera</a></li>
 								<li class="divider"></li>
 								<li>
 									<div class="language-switcher">
-										<span><i class="fa fa-globe"></i> English</span>
+										<span><i class="fa fa-globe"></i> Svenska</span>
 										<ul>
+											<li><a href="#">English</a></li>
 											<li><a href="#">Deutsch</a></li>
 											<li><a href="#">Espa&ntilde;ol</a></li>
 											<li><a href="#">Fran&ccedil;ais</a></li>
@@ -39,7 +40,7 @@
 							<!-- BEGIN SEARCH -->
 							<div id="sb-search" class="sb-search">
 								<form>
-									<input class="sb-search-input" placeholder="Search..." type="text" value="" name="search" id="search">
+									<input class="sb-search-input" placeholder="Sök..." type="text" value="" name="search" id="search">
 									<input class="sb-search-submit" type="submit" value="">
 									<i class="fa fa-search sb-icon-search"></i>
 								</form>
@@ -52,7 +53,7 @@
 
 								<ul class="nav navbar-nav">
 									<li class="dropdown">
-										<a class="active" href="#" data-toggle="dropdown" data-hover="dropdown">Home<b class="caret"></b></a>
+										<a class="active" href="#" data-toggle="dropdown" data-hover="dropdown">Start<b class="caret"></b></a>
 										<ul class="dropdown-menu">
 											<li><a class="active" href="index.html">Home Search</a></li>
 											<li><a href="index-slider.html">Home Slider</a></li>
@@ -61,47 +62,160 @@
 										</ul>
 									</li>
 
+									<li><a href="contacts.html">Hyra ut</a></li>
+
 									<li class="dropdown">
-										<a href="#" data-toggle="dropdown" data-hover="dropdown">Properties<b class="caret"></b></a>
+										<a href="#" data-toggle="dropdown" data-hover="dropdown">Lägenheter i... <b class="caret"></b></a>
 										<ul class="dropdown-menu">
-											<li><a href="properties-detail.html">Properties Detail</a></li>
-											<li><a href="properties-list.html">Properties List</a></li>
-											<li><a href="properties-grid.html">Properties Grid</a></li>
-											<li><a href="properties-grid2.html">Properties Grid 2</a></li>
+											<li class="dropdown-submenu">
+												<a href="#">Blekinge län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Karlskrona</a></li>
+													<li><a href="#">Olofström</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Dalarnas län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Falun</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Gotlands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Visby</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Gävleborgs län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Gävle</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Hallands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Halmstad</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Jämtlands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Östersund</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Jönköpings län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Jönköping</a></li>
+													<li><a href="#">Huskvarna</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Kalmar län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Kalmar</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Kronobergs län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Växjö</a></li>
+													<li><a href="#">Ljungby</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Norrbottens län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Luleå</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Skåne län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Malmö</a></li>
+													<li><a href="#">Helsingborg</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Stockholms län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Stockholm</a></li>
+													<li><a href="#">Solna</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Södermanlands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Nyköping</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Uppsala län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Uppsala</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Värmlands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Karlstad</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Västerbottens län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Umeå</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Västernorrlands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Härnösand</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Västmanlands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Västerås</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Västra Götalands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Göteborg</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Örebro län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Örebro</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu">
+												<a href="#">Östergötlands län</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Linköping</a></li>
+													<li><a href="#">Norrköping</a></li>
+												</ul>
+											</li>
 										</ul>
 									</li>
 
 									<li class="dropdown">
-										<a href="#" data-toggle="dropdown" data-hover="dropdown">Pages<b class="caret"></b></a>
+										<a href="#" data-toggle="dropdown" data-hover="dropdown">Konto<b class="caret"></b></a>
 										<ul class="dropdown-menu">
-											<li><a href="about.html">About Us</a></li>
-											<li class="dropdown-submenu">
-												<a href="#">Agency</a>
-												<ul class="dropdown-menu">
-													<li><a href="agency-detail.html">Agency Detail</a></li>
-													<li><a href="agency-listing.html">Agency Listing</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Agent</a>
-												<ul class="dropdown-menu">
-													<li><a href="agent-detail.html">Agent Detail</a></li>
-													<li><a href="agent-listing.html">Agent Listing</a></li>
-												</ul>
-											</li>
-											<li><a href="pricing-tables.html">Pricing Tables</a></li>
-											<li><a href="login.html">Login</a></li>
-											<li><a href="register.html">Register</a></li>
-											<li><a href="faq.html">FAQ</a></li>
-											<li><a href="404.html">404</a></li>
-
+											<li><a href="pricing-tables.html">Prenumerationer</a></li>
 											<li class="divider"></li>
-											<li><a tabindex="-1" href="#"> Separated link </a></li>
+											<li><a href="login.html">Logga in</a></li>
+											<li><a href="register.html">Registrera</a></li>
+											<li class="divider"></li>
+											<li><a href="faq.html">FAQ</a></li>
 										</ul>
 									</li>
 
 									<li class="dropdown">
-										<a href="#" data-toggle="dropdown" data-hover="dropdown">Blog<b class="caret"></b></a>
+										<a href="#" data-toggle="dropdown" data-hover="dropdown">Blogg<b class="caret"></b></a>
 										<ul class="dropdown-menu">
 											<li><a href="blog-detail.html">Blog Detail</a></li>
 											<li><a href="blog-listing1.html">Blog Listing 1</a></li>
@@ -111,7 +225,7 @@
 										</ul>
 									</li>
 
-									<li><a href="contacts.html">Contacts</a></li>
+									<li><a href="contacts.html">Kontakt</a></li>
 								</ul>
 
 							</nav>
