@@ -5,7 +5,7 @@
 					<div class="block col-sm-3">
 						<a href="index.html"><img src="images/logo.png" alt="Cozy Logo" /></a>
 						<br><br>
-						<p>Nirmea är en tjänst som hjälper dig hitta bostad snabbare utan att behöva ha någon kötid. Vi erbjuder både registrering i alla bostadsköer vi känner till samt möjlighet att få lägenhet via våra exklusiva fastighetsägare.</p>
+						<p>Nirmea är en tjänst som hjälper dig hitta bostad snabbare utan att behöva ha kötid. Vi erbjuder både registrering i alla bostadsköer vi känner till samt möjlighet att få lägenhet via våra exklusiva fastighetsägare.</p>
 					</div>
 					<div class="block col-sm-3">
 						<h3>Kontakt</h3>

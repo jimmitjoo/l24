@@ -1,0 +1,1 @@
+/Users/jimmitjoo/Desktop/code/nirmea/app/views/apartments/index.blade.php

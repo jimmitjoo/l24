@@ -52,7 +52,7 @@
 								<button id="nav-mobile-btn"><i class="fa fa-bars"></i></button>
 
 								<ul class="nav navbar-nav">
-									<li class="dropdown">
+									<!--<li class="dropdown">
 										<a class="active" href="#" data-toggle="dropdown" data-hover="dropdown">Start<b class="caret"></b></a>
 										<ul class="dropdown-menu">
 											<li><a class="active" href="index.html">Home Search</a></li>
@@ -60,9 +60,10 @@
 											<li><a href="index-grid.html">Home Grid</a></li>
 											<li><a href="index-map.html">Home Map</a></li>
 										</ul>
-									</li>
+									</li>-->
 
-									<li><a href="contacts.html">Hyra ut</a></li>
+                                    <li><a href="/">Start</a></li>
+									<li>{{ link_to_route('apartments.create', 'Hyra ut') }}</li>
 
 									<li class="dropdown">
 										<a href="#" data-toggle="dropdown" data-hover="dropdown">Lägenheter i... <b class="caret"></b></a>

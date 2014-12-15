@@ -15,3 +15,6 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+
+Route::get('/hyra-ut', ['as' => 'apartments.create', 'uses' => 'ApartmentsController@create']);
+Route::resource('apartments', 'ApartmentsController', ['except' => 'create']);
