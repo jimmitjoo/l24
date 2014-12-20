@@ -11,7 +11,8 @@
 
 							<ul id="top-buttons">
 								<li><a href="#"><i class="fa fa-sign-in"></i> Logga in</a></li>
-								<li><a href="#"><i class="fa fa-pencil-square-o"></i> Registrera</a></li>
+								<li><a href="{{ route('users.create') }}"><i class="fa fa-pencil-square-o"></i> Registrera</a></li>
+
 								<li class="divider"></li>
 								<li>
 									<div class="language-switcher">
@@ -63,7 +64,7 @@
 									</li>-->
 
                                     <li><a href="/">Start</a></li>
-									<li>{{ link_to_route('apartments.create', 'Hyra ut') }}</li>
+									<li>{{ link_to_route('users.create_landlord', 'Hyra ut') }}</li>
 
 									<li class="dropdown">
 										<a href="#" data-toggle="dropdown" data-hover="dropdown">Lägenheter i... <b class="caret"></b></a>
@@ -209,7 +210,8 @@
 											<li><a href="pricing-tables.html">Prenumerationer</a></li>
 											<li class="divider"></li>
 											<li><a href="login.html">Logga in</a></li>
-											<li><a href="register.html">Registrera</a></li>
+											<li><a href="{{ route('users.create') }}">Registrera</a></li>
+
 											<li class="divider"></li>
 											<li><a href="faq.html">FAQ</a></li>
 										</ul>

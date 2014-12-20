@@ -16,5 +16,7 @@ Route::get('/', function()
 	return View::make('index');
 });
 
-Route::get('/hyra-ut', ['as' => 'apartments.create', 'uses' => 'ApartmentsController@create']);
+Route::get('/hyra-ut', ['as' => 'users.create_landlord', 'uses' => 'UsersController@create_landlord']);
+Route::get('/skapa-konto', ['as' => 'users.create', 'uses' => 'UsersController@create']);
+Route::resource('users', 'UsersController', ['except' => 'create']);
 Route::resource('apartments', 'ApartmentsController', ['except' => 'create']);

@@ -10,6 +10,8 @@
 
 						@include('puffs.version1')
 
+						@include('text.version1')
+
 						@include('news.roll.version1')
 
 					</div>
