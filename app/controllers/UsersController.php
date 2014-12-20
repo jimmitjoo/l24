@@ -43,7 +43,22 @@ class UsersController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+
+		$user = new User;
+
+		dd(Input::all());
+
+		$user->firstname = Input::get('firstname');
+		$user->lastname = Input::get('lastname');
+		$user->email = Input::get('email');
+		$user->tele = Input::get('tele');
+		$user->password = Hash::make(Input::get('password'));
+		$user->info->personal_code_number = Input::get('personal_code_number');
+		$user->info->address = Input::get('address');
+		$user->info->city = Input::get('city');
+		$user->info->income = Input::get('income');
+
+		$user->push();
 	}
 
 	/**

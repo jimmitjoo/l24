@@ -1,6 +1,6 @@
                         <div class="post-content">
 
-                            <h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">Varför leta lägenhet via Nirmea?</h1>
+                            <h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">Varför leta lägenhet via Lägenheter24?</h1>
 
 							<div class="highlight-bold">Phasellus suscipit aliquam nisl et porttitor. Suspendisse potenti. Fusce libero velit, tristique eu mauris vitae, convallis facilisis sapien. Mauris urna diam, fringilla sit amet eleifend id, commodo ac lorem. Curabitur at erat justo.</div>
 

@@ -5,14 +5,14 @@
 					<div class="block col-sm-3">
 						<a href="index.html"><img src="images/logo.png" alt="Cozy Logo" /></a>
 						<br><br>
-						<p>Nirmea är en tjänst som hjälper dig hitta bostad snabbare utan att behöva ha kötid. Vi erbjuder både registrering i alla bostadsköer vi känner till samt möjlighet att få lägenhet via våra exklusiva fastighetsägare.</p>
+						<p>Lägenheter24 är en tjänst som hjälper dig hitta bostad snabbare utan att behöva ha kötid. Vi erbjuder både registrering i alla bostadsköer vi känner till samt möjlighet att få lägenhet via våra exklusiva fastighetsägare.</p>
 					</div>
 					<div class="block col-sm-3">
 						<h3>Kontakt</h3>
 						<ul class="footer-contacts">
 							<li><i class="fa fa-map-marker"></i> Sandåsgatan 1, Kalmar</li>
 							<li><i class="fa fa-phone"></i> 0730-361 869</li>
-							<li><i class="fa fa-envelope"></i> <a href="mailto:info@nirmea.com">info@nirmea.com</a></li>
+							<li><i class="fa fa-envelope"></i> <a href="mailto:info@lagenheter24.se">info@lagenheter24.se</a></li>
 						</ul>
 					</div>
 					<div class="block col-sm-3">
@@ -56,7 +56,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							&copy; 2014 Nirmea AB. Webbdesign av <a rel="nofollow" href="http://www.wiselythemes.com" target="_blank">WiselyThemes</a>
+							&copy; 2014 Lägenheter24 AB. Webbdesign av <a rel="nofollow" href="http://www.wiselythemes.com" target="_blank">WiselyThemes</a>
 							
 							<!-- BEGIN SOCIAL NETWORKS -->
 							<ul class="social-networks">

@@ -7,7 +7,7 @@
 	<meta charset="utf-8" />
 
 	<!-- Page Title -->
-	<title>Lediga lägenheter på Nirmea</title>
+	<title>Lediga lägenheter på Lägenheter24</title>
 
 	<meta name="keywords" content="real estate, responsive, retina ready, modern html5 template, bootstrap, css3" />
 	<meta name="description" content="Cozy - Responsive Real Estate HTML5 Template" />

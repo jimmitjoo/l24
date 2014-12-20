@@ -4,8 +4,8 @@
 				<div class="row">
 					<div class="col-sm-12" data-animation-direction="from-top" data-animation-delay="50">
 
-						<h2 class="slider-title">Lägenheter för alla</h2>
-						<div class="slider-subtitle">Hitta en lägenhet oavsett om du har kötid eller inte.</div>
+						<h2 class="slider-title">Sök lägenhet</h2>
+						<div class="slider-subtitle">Hitta lägenhet oavsett kötid.</div>
 					</div>
 
 					<div id="home-search-buttons" class="col-sm-6 col-sm-offset-3" data-animation-direction="from-bottom" data-animation-delay="250">
@@ -15,8 +15,6 @@
 								<button class="btn btn-default" type="button"><i class="fa fa-search"></i>Sök</button>
 							</span>
 						</div>
-
-						<a href="#" class="advanced-search">Avancerad Sökning</a>
 					</div>
 				</div>
 			</div>

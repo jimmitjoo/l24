@@ -6,7 +6,7 @@
 						<div class="col-sm-12">
 							<ul id="top-info">
 								<li>Telefon: 0730-361 869</li>
-								<li>E-post: <a href="mailto:info@nirmea.com">info@nirmea.com</a></li>
+								<li>E-post: <a href="mailto:info@lagenheter24.se">info@lagenheter24.se</a></li>
 							</ul>
 
 							<ul id="top-buttons">
@@ -36,7 +36,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							<a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Cozy Logo" /></a>
+							<a href="/?ref=logo" class="nav-logo"><img src="images/logo.png" alt="Lägenheter24 logga" /></a>
 
 							<!-- BEGIN SEARCH -->
 							<div id="sb-search" class="sb-search">
