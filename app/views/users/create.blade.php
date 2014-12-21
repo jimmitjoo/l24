@@ -14,19 +14,66 @@
 							<h1 class="center">Skapa GRATIS konto</h1>
 
 							<div class="col-sm-12">
+
+								<hr/>
+
+								@include('errors.list')
+
 								{{ Form::open(['route' => 'users.store', 'method' => 'post', 'class' => 'form-style']) }}
-								<form class="form-style">
-									<input type="text" name="firstname" placeholder="Förnamn*" class="form-control" />
-									<input type="text" name="lastname" placeholder="Efternamn*" class="form-control" />
-									<input type="text" name="personal_code_number" placeholder="Personnummer*" class="form-control" />
-									<input type="text" name="address" placeholder="Nuvarande adress" class="form-control" />
-									<input type="text" name="zip_code" placeholder="Postnummer" class="form-control" />
-									<input type="text" name="city" placeholder="Stad" class="form-control" />
-									<input type="text" name="income" placeholder="Inkomst per månad (Ex: 20000)" class="form-control" />
-									<input type="text" name="tele" placeholder="Tele*" class="form-control" />
-									<input type="email" name="email" placeholder="E-post*" class="form-control" />
-									<input type="password" name="password" placeholder="Lösenord*" class="form-control" />
-									<input type="password" name="password_confirmation" placeholder="Repetera lösenord*" class="form-control" />
+									<div class="form-group">
+										{{ Form::label('firstname', 'Förnamn') }}
+										{{ Form::text('firstname', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+										{{ Form::label('lastname', 'Efternamn') }}
+										{{ Form::text('lastname', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+										{{ Form::label('personal_code_number', 'Personnummer') }}
+										{{ Form::text('personal_code_number', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+										{{ Form::label('address', 'Adress') }}
+										{{ Form::text('address', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+										{{ Form::label('zip_code', 'Postnummer') }}
+										{{ Form::text('zip_code', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+										{{ Form::label('city', 'Postort') }}
+										{{ Form::text('city', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+										{{ Form::label('income', 'Inkomst per månad (Ex. 20000)') }}
+										{{ Form::text('income', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+										{{ Form::label('tele', 'Telefon') }}
+										{{ Form::text('tele', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+										{{ Form::label('email', 'E-post *') }}
+										{{ Form::text('email', null, ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+									    {{ Form::label('password', 'Lösenord *') }}
+									    {{ Form::password('password', ['class' => 'form-control']) }}
+									</div>
+
+									<div class="form-group">
+									    {{ Form::label('password_confirmation', 'Repetera lösenord *') }}
+									    {{ Form::password('password_confirmation', ['class' => 'form-control']) }}
+									</div>
 
 									<div class="checkbox">
 										<label>

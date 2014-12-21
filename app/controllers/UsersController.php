@@ -44,21 +44,27 @@ class UsersController extends \BaseController {
 	public function store()
 	{
 
-		$user = new User;
+		$validator = Validator::make(Input::all(), User::$rules);
 
-		dd(Input::all());
+		if ($validator->fails()) return Redirect::back()->withErrors($validator)->withInput();
+
+		$user = new User;
 
 		$user->firstname = Input::get('firstname');
 		$user->lastname = Input::get('lastname');
 		$user->email = Input::get('email');
 		$user->tele = Input::get('tele');
 		$user->password = Hash::make(Input::get('password'));
-		$user->info->personal_code_number = Input::get('personal_code_number');
-		$user->info->address = Input::get('address');
-		$user->info->city = Input::get('city');
-		$user->info->income = Input::get('income');
+		$user->save();
 
-		$user->push();
+		$userInfo = new UserInfo;
+		$userInfo->user_id = $user->id;
+		$userInfo->personal_code_number = Input::get('personal_code_number');
+		$userInfo->address = Input::get('address');
+		$userInfo->city = Input::get('city');
+		$userInfo->zip_code = Input::get('zip_code');
+		$userInfo->income = Input::get('income');
+		$userInfo->save();
 	}
 
 	/**
