@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration {
 			$table->string('tele');
 			$table->string('password');
 			$table->enum('landlord', [0,1]);
+			$table->string('remember_token');
 			$table->timestamps();
 			$table->softDeletes();
 		});

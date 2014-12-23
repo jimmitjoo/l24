@@ -1,0 +1,1 @@
+/Users/jimmitjoo/code/nirmea/app/views/galleries/index.blade.php

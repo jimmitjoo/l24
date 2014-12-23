@@ -65,6 +65,8 @@ class UsersController extends \BaseController {
 		$userInfo->zip_code = Input::get('zip_code');
 		$userInfo->income = Input::get('income');
 		$userInfo->save();
+
+		return Redirect::home();
 	}
 
 	/**

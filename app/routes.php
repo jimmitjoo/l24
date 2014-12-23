@@ -11,12 +11,13 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('index');
-});
+Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
 
-Route::get('/hyra-ut', ['as' => 'users.create_landlord', 'uses' => 'UsersController@create_landlord']);
-Route::get('/skapa-konto', ['as' => 'users.create', 'uses' => 'UsersController@create']);
+Route::get('/hyra-ut', ['as' => 'users.create_landlord', 'uses' => 'UsersController@create_landlord'])->before('auth.create_landlord');
+Route::get('/skapa-konto', ['as' => 'users.create', 'uses' => 'UsersController@create'])->before('auth.signed_out');
+Route::get('/logga-in', ['as' => 'sessions.create', 'uses' => 'SessionsController@create'])->before('auth.signed_out');
+Route::get('/logga-ut', ['as' => 'sessions.destroy', 'uses' => 'SessionsController@destroy']);
+
 Route::resource('users', 'UsersController', ['except' => 'create']);
 Route::resource('apartments', 'ApartmentsController', ['except' => 'create']);
+Route::resource('sessions', 'SessionsController', ['except' => ['create', 'destroy']]);

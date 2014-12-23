@@ -10,8 +10,13 @@
 							</ul>
 
 							<ul id="top-buttons">
-								<li><a href="#"><i class="fa fa-sign-in"></i> Logga in</a></li>
-								<li><a href="{{ route('users.create') }}"><i class="fa fa-pencil-square-o"></i> Registrera</a></li>
+								@if(!Auth::check())
+									<li><a href="{{ route('sessions.create') }}"><i class="fa fa-sign-in"></i> Logga in</a></li>
+									<li><a href="{{ route('users.create') }}"><i class="fa fa-pencil-square-o"></i> Skapa konto</a></li>
+									@else
+									<li><a href="{{ route('sessions.destroy') }}"><i class="fa fa-sign-out"></i> Logga ut</a></li>
+
+								@endif
 
 								<li class="divider"></li>
 								<li>
@@ -69,138 +74,19 @@
 									<li class="dropdown">
 										<a href="#" data-toggle="dropdown" data-hover="dropdown">Lägenheter i... <b class="caret"></b></a>
 										<ul class="dropdown-menu">
-											<li class="dropdown-submenu">
-												<a href="#">Blekinge län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Karlskrona</a></li>
-													<li><a href="#">Olofström</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Dalarnas län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Falun</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Gotlands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Visby</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Gävleborgs län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Gävle</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Hallands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Halmstad</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Jämtlands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Östersund</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Jönköpings län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Jönköping</a></li>
-													<li><a href="#">Huskvarna</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Kalmar län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Kalmar</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Kronobergs län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Växjö</a></li>
-													<li><a href="#">Ljungby</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Norrbottens län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Luleå</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Skåne län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Malmö</a></li>
-													<li><a href="#">Helsingborg</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Stockholms län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Stockholm</a></li>
-													<li><a href="#">Solna</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Södermanlands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Nyköping</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Uppsala län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Uppsala</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Värmlands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Karlstad</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Västerbottens län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Umeå</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Västernorrlands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Härnösand</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Västmanlands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Västerås</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Västra Götalands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Göteborg</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Örebro län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Örebro</a></li>
-												</ul>
-											</li>
-											<li class="dropdown-submenu">
-												<a href="#">Östergötlands län</a>
-												<ul class="dropdown-menu">
-													<li><a href="#">Linköping</a></li>
-													<li><a href="#">Norrköping</a></li>
-												</ul>
-											</li>
+											@if (isset($geomenu))
+												@foreach ($geomenu as $key => $value)
+													<li class="dropdown-submenu">
+														<a href="#">{{ $key }}</a>
+														<ul class="dropdown-menu">
+															@foreach($value as $slug)
+																<li><a href="{{ $slug[0] }}">{{ $slug[1] }}</a></li>
+															@endforeach
+														</ul>
+													</li>
+												@endforeach
+											@endif
+
 										</ul>
 									</li>
 
@@ -208,9 +94,12 @@
 										<a href="#" data-toggle="dropdown" data-hover="dropdown">Konto<b class="caret"></b></a>
 										<ul class="dropdown-menu">
 											<li><a href="pricing-tables.html">Prenumerationer</a></li>
+
+											@if(!Auth::check())
 											<li class="divider"></li>
-											<li><a href="login.html">Logga in</a></li>
-											<li><a href="{{ route('users.create') }}">Registrera</a></li>
+											<li><a href="{{ route('sessions.create') }}">Logga in</a></li>
+											<li><a href="{{ route('users.create') }}">Skapa konto</a></li>
+											@endif
 
 											<li class="divider"></li>
 											<li><a href="faq.html">FAQ</a></li>

@@ -1,5 +1,5 @@
                         <!-- BEGIN LATEST NEWS -->
-						<h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">Latest News</h1>
+						<h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">Nyhetsartiklar</h1>
 						<div class="latest-news list-style clearfix">
 							<div class="item col-sm-12" data-animation-direction="from-bottom" data-animation-delay="250">
 								<div class="image">

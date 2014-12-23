@@ -57,17 +57,17 @@
 									</div>
 
 									<div class="form-group">
-										{{ Form::label('email', 'E-post') }}
+										{{ Form::label('email', 'E-post *') }}
 										{{ Form::text('email', null, ['class' => 'form-control']) }}
 									</div>
 
 									<div class="form-group">
-										{{ Form::label('password', 'Lösenord') }}
+										{{ Form::label('password', 'Lösenord *') }}
 										{{ Form::password('password', ['class' => 'form-control']) }}
 									</div>
 
 									<div class="form-group">
-										{{ Form::label('password_confirmation', 'Repetera lösenord') }}
+										{{ Form::label('password_confirmation', 'Repetera lösenord *') }}
 										{{ Form::password('password_confirmation', ['class' => 'form-control']) }}
 									</div>
 

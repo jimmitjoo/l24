@@ -54,6 +54,19 @@ Route::filter('auth.basic', function()
 	return Auth::basic();
 });
 
+
+Route::filter('auth.signed_out', function(){
+
+	if (Auth::check()) return Redirect::home();
+
+});
+
+Route::filter('auth.create_landlord', function(){
+
+	if (Auth::check()) return View::make('apartments.create');
+
+});
+
 /*
 |--------------------------------------------------------------------------
 | Guest Filter
