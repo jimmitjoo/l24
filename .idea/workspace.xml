@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056c6643-7e95-4f31-8c5c-602ce91a3495" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_06_07_134752_create_towns_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_12_15_203851_create_apartments_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_12_15_203851_create_apartments_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_12_16_165323_create_users_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_12_16_165323_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/apartments/create.blade.php" afterPath="$PROJECT_DIR$/app/views/apartments/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/create_landlord.blade.php" afterPath="$PROJECT_DIR$/app/views/users/create_landlord.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/master/header.blade.php" afterPath="$PROJECT_DIR$/app/views/master/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/action/version1.blade.php" afterPath="$PROJECT_DIR$/app/views/action/version1.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/master/main/version1.blade.php" afterPath="$PROJECT_DIR$/app/views/master/main/version1.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/news/roll/version1.blade.php" afterPath="$PROJECT_DIR$/app/views/news/roll/version1.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/text/version1.blade.php" afterPath="$PROJECT_DIR$/app/views/text/version1.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nirmea.iws" />
@@ -744,15 +729,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -789,13 +774,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -852,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9444444" vertical-offset="301525" max-vertical-offset="302525">
           <caret line="12095" column="0" selection-start-line="12095" selection-start-column="0" selection-end-line="12095" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,63 +848,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/storage/logs/laravel.log">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14250">
           <caret line="0" column="148" selection-start-line="0" selection-start-column="148" selection-end-line="0" selection-end-column="148" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/views/04db0436629447947e4afbfb79130a1d">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/views/04db0436629447947e4afbfb79130a1d">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46524063" vertical-offset="715" max-vertical-offset="1650">
           <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/views/12b338309f55956c2999334ed48d1940">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/views/12b338309f55956c2999334ed48d1940">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24064171" vertical-offset="0" max-vertical-offset="2300">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/views/45509e15696b566ed328c098d129cac8">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/views/45509e15696b566ed328c098d129cac8">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46524063" vertical-offset="690" max-vertical-offset="1625">
           <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/views/5a9b1fd0193da2c81eb4c6cf961b5b7c">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/views/5a9b1fd0193da2c81eb4c6cf961b5b7c">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24064171" vertical-offset="0" max-vertical-offset="2300">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/views/5fdbcf2146dd54d07d368624f6c87f49">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/views/5fdbcf2146dd54d07d368624f6c87f49">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10695187" vertical-offset="0" max-vertical-offset="500">
           <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/storage/views/7c063b419cbc427e7bdb7757113d9e3f">
@@ -931,33 +915,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/storage/views/8718bd9bae75f0aa068c8891a7023c54">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8663102" vertical-offset="240" max-vertical-offset="1650">
           <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/views/28eafbeb288fe4cab454d2a55deff7be">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/views/28eafbeb288fe4cab454d2a55deff7be">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33262032" vertical-offset="39" max-vertical-offset="2100">
           <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/views/7e087d2c2833d524c8a55718a5dce3cc">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/views/7e087d2c2833d524c8a55718a5dce3cc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4432624" vertical-offset="0" max-vertical-offset="6175">
           <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.less">
