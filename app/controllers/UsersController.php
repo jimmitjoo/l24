@@ -1,6 +1,18 @@
 <?php
 
+use L24\Repos\MenuRepository;
+
 class UsersController extends \BaseController {
+
+	/**
+	 * @var MenuRepository
+	 */
+	private $menu;
+
+	public function __construct(MenuRepository $menu)
+	{
+		$this->menu = $menu;
+	}
 
 	/**
 	 * Display a listing of the resource.
@@ -21,7 +33,7 @@ class UsersController extends \BaseController {
      */
     public function create()
     {
-        return View::make('users.create');
+        return View::make('users.create')->withGeomenu($this->menu->regionMenu());
     }
 
     /**
@@ -32,7 +44,7 @@ class UsersController extends \BaseController {
      */
     public function create_landlord()
     {
-        return View::make('users.create_landlord');
+        return View::make('users.create_landlord')->withGeomenu($this->menu->regionMenu());
     }
 
 	/**

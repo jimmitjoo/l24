@@ -2,7 +2,7 @@
 
 use L24\Repos\MenuRepository;
 
-class SessionsController extends \BaseController {
+class TownsController extends \BaseController {
 
 	/**
 	 * @var MenuRepository
@@ -16,7 +16,7 @@ class SessionsController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
-	 * GET /sessions
+	 * GET /towns
 	 *
 	 * @return Response
 	 */
@@ -27,48 +27,41 @@ class SessionsController extends \BaseController {
 
 	/**
 	 * Show the form for creating a new resource.
-	 * GET /sessions/create
+	 * GET /towns/create
 	 *
 	 * @return Response
 	 */
 	public function create()
 	{
-		return View::make('users.login')->withGeomenu($this->menu->regionMenu());
+		//
 	}
 
 	/**
 	 * Store a newly created resource in storage.
-	 * POST /sessions
+	 * POST /towns
 	 *
 	 * @return Response
 	 */
 	public function store()
 	{
-
-		if (Auth::attempt(array('email' => Input::get('email'), 'password' => Input::get('password'))))
-		{
-			return Redirect::intended('/');
-		}
-
-		return Redirect::back();
-
-	}
-
-	/**
-	 * Display the specified resource.
-	 * GET /sessions/{id}
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function show($id)
-	{
 		//
 	}
 
 	/**
+	 * Display the specified resource.
+	 * GET /{town}
+	 *
+	 * @param  string  $town
+	 * @return Response
+	 */
+	public function show($town)
+	{
+		return View::make('town.index')->withTown($town)->withGeomenu($this->menu->regionMenu());
+	}
+
+	/**
 	 * Show the form for editing the specified resource.
-	 * GET /sessions/{id}/edit
+	 * GET /towns/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -80,7 +73,7 @@ class SessionsController extends \BaseController {
 
 	/**
 	 * Update the specified resource in storage.
-	 * PUT /sessions/{id}
+	 * PUT /towns/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -92,14 +85,14 @@ class SessionsController extends \BaseController {
 
 	/**
 	 * Remove the specified resource from storage.
+	 * DELETE /towns/{id}
 	 *
+	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy()
+	public function destroy($id)
 	{
-		Auth::logout();
-
-		return Redirect::home();
+		//
 	}
 
 }

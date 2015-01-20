@@ -18,6 +18,8 @@ Route::get('/skapa-konto', ['as' => 'users.create', 'uses' => 'UsersController@c
 Route::get('/logga-in', ['as' => 'sessions.create', 'uses' => 'SessionsController@create'])->before('auth.signed_out');
 Route::get('/logga-ut', ['as' => 'sessions.destroy', 'uses' => 'SessionsController@destroy']);
 
+Route::get('/{town}', 'TownsController@show');
+
 Route::resource('users', 'UsersController', ['except' => 'create']);
 Route::resource('apartments', 'ApartmentsController', ['except' => 'create']);
 Route::resource('sessions', 'SessionsController', ['except' => ['create', 'destroy']]);
