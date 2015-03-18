@@ -1,185 +1,184 @@
-		<!-- BEGIN PROPERTIES SLIDER WRAPPER-->
-		<div class="parallax pattern-bg" data-stellar-background-ratio="0.5">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="section-title" data-animation-direction="from-bottom" data-animation-delay="50">Lediga lägenheter</h1>
+<!-- BEGIN PROPERTY LISTING -->
+<div id="property-listing" class="list-style clearfix">
+	<div class="row">
+		<div class="item col-md-4"><!-- Set width to 4 columns for grid view mode only -->
+			<div class="image">
+				<a href="properties-detail.html">
+					<span class="btn btn-default"><i class="fa fa-file-o"></i> Details</span>
+				</a>
+				<img src="http://placehold.it/760x670" alt="" />
+			</div>
+			<div class="price">
+				<i class="fa fa-home"></i>For Sale
+				<span>$950,000</span>
+			</div>
+			<div class="info">
+				<h3>
+					<a href="properties-detail.html">Luxury Apartment with great views</a>
+					<small>Upper East Side, New York</small>
+				</h3>
+				<p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.</p>
 
-						<div id="new-properties-slider" class="owl-carousel carousel-style1">
-							<div class="item" data-animation-direction="from-bottom" data-animation-delay="250">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>Luxury Apartment with great views</h3>
-										<span class="location">Upper East Side, New York</span>
-									</a>
-									<img src="http://placehold.it/760x670" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 2150 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 4</li>
-									<li><i class="icon-bathrooms"></i> 3</li>
-								</ul>
-							</div>
-
-							<div class="item" data-animation-direction="from-bottom" data-animation-delay="450">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>Stunning Villa with 5 bedrooms</h3>
-										<span class="location">Miami Beach, Florida</span>
-									</a>
-									<img src="http://placehold.it/800x600" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 3470 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 5</li>
-									<li><i class="icon-bathrooms"></i> 4</li>
-								</ul>
-							</div>
-
-							<div class="item" data-animation-direction="from-bottom" data-animation-delay="650">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>Recent construction with 3 bedrooms</h3>
-										<span class="location">Park Slope, New York</span>
-									</a>
-									<img src="http://placehold.it/760x670" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 1800 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 3</li>
-									<li><i class="icon-bathrooms"></i> 2</li>
-								</ul>
-							</div>
-
-							<div class="item" data-animation-direction="from-bottom" data-animation-delay="850">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>Modern construction with parking space</h3>
-										<span class="location">Midtown, New York</span>
-									</a>
-									<img src="http://placehold.it/860x370" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 1300 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 1</li>
-									<li><i class="icon-bathrooms"></i> 2</li>
-								</ul>
-							</div>
-
-							<div class="item">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>Single Family Townhouse</h3>
-										<span class="location">Cobble Hill, New York</span>
-									</a>
-									<img src="http://placehold.it/760x670" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 1580 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 2</li>
-									<li><i class="icon-bathrooms"></i> 2</li>
-								</ul>
-							</div>
-
-							<div class="item">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>3 bedroom villa with garage Uthyres</h3>
-										<span class="location">Bal Harbour, Florida</span>
-									</a>
-									<img src="http://placehold.it/760x670" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 2000 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 3</li>
-									<li><i class="icon-bathrooms"></i> 2</li>
-								</ul>
-							</div>
-
-							<div class="item">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>Luxury Condo with 2 bedroms</h3>
-										<span class="location">Brooklyn Heights, New York</span>
-									</a>
-									<img src="http://placehold.it/760x670" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 3120 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 4</li>
-									<li><i class="icon-bathrooms"></i> 2</li>
-								</ul>
-							</div>
-
-							<div class="item">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>Edition Residences on Collins Avenue</h3>
-										<span class="location">Miami Beach, Florida</span>
-									</a>
-									<img src="http://placehold.it/760x670" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 1200 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 1</li>
-									<li><i class="icon-bathrooms"></i> 2</li>
-								</ul>
-							</div>
-
-							<div class="item">
-								<div class="image">
-									<a href="properties-detail.html" class="info">
-										<h3>Gorgeous Apartment in New York</h3>
-										<span class="location">Soho - Nolita, New York</span>
-									</a>
-									<img src="http://placehold.it/760x670" alt="" />
-								</div>
-								<div class="price">
-									<i class="fa fa-home"></i>Uthyres
-									<span>4 500 kr/mån</span>
-								</div>
-								<ul class="amenities">
-									<li><i class="icon-area"></i> 1000 Sq Ft</li>
-									<li><i class="icon-bedrooms"></i> 1</li>
-									<li><i class="icon-bathrooms"></i> 1</li>
-								</ul>
-							</div>
-						</div>
-
-					</div>
-				</div>
+				<ul class="amenities">
+					<li><i class="icon-area"></i> 2150 Sq Ft</li>
+					<li><i class="icon-bedrooms"></i> 4</li>
+					<li><i class="icon-bathrooms"></i> 3</li>
+				</ul>
 			</div>
 		</div>
-		<!-- END PROPERTIES SLIDER WRAPPER -->
+
+		<div class="item col-md-4"><!-- Set width to 4 columns for grid view mode only -->
+			<div class="image">
+				<a href="properties-detail.html">
+					<span class="btn btn-default"><i class="fa fa-file-o"></i> Details</span>
+				</a>
+				<img src="http://placehold.it/760x670" alt="" />
+			</div>
+			<div class="price">
+				<i class="fa fa-home"></i>For Sale
+				<span>$1,253,000</span>
+			</div>
+			<div class="info">
+				<h3>
+					<a href="properties-detail.html">Stunning Villa with 5 bedrooms</a>
+					<small>Miami Beach, Florida</small>
+				</h3>
+				<p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.</p>
+
+				<ul class="amenities">
+					<li><i class="icon-area"></i> 3470 Sq Ft</li>
+					<li><i class="icon-bedrooms"></i> 5</li>
+					<li><i class="icon-bathrooms"></i> 4</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="item col-md-4"><!-- Set width to 4 columns for grid view mode only -->
+			<div class="image">
+				<a href="properties-detail.html">
+					<span class="btn btn-default"><i class="fa fa-file-o"></i> Details</span>
+				</a>
+				<img src="http://placehold.it/760x670" alt="" />
+			</div>
+			<div class="price">
+				<i class="fa fa-home"></i>For Sale
+				<span>$560,000</span>
+			</div>
+			<div class="info">
+				<h3>
+					<a href="properties-detail.html">Recent construction with 3 bedrooms</a>
+					<small>Park Slope, New York</small>
+				</h3>
+				<p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.</p>
+
+				<ul class="amenities">
+					<li><i class="icon-area"></i> 1800 Sq Ft</li>
+					<li><i class="icon-bedrooms"></i> 3</li>
+					<li><i class="icon-bathrooms"></i> 2</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="item col-md-4"><!-- Set width to 4 columns for grid view mode only -->
+			<div class="image">
+				<a href="properties-detail.html">
+					<span class="btn btn-default"><i class="fa fa-file-o"></i> Details</span>
+				</a>
+				<img src="http://placehold.it/760x670" alt="" />
+			</div>
+			<div class="price">
+				<i class="fa fa-home"></i>For Rent
+				<span>$850</span>
+			</div>
+			<div class="info">
+				<h3>
+					<a href="properties-detail.html">Modern construction with parking space</a>
+					<small>Midtown, New York</small>
+				</h3>
+				<p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.</p>
+
+				<ul class="amenities">
+					<li><i class="icon-area"></i> 1300 Sq Ft</li>
+					<li><i class="icon-bedrooms"></i> 1</li>
+					<li><i class="icon-bathrooms"></i> 2</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="item col-md-4"><!-- Set width to 4 columns for grid view mode only -->
+			<div class="image">
+				<a href="properties-detail.html">
+					<span class="btn btn-default"><i class="fa fa-file-o"></i> Details</span>
+				</a>
+				<img src="http://placehold.it/760x670" alt="" />
+			</div>
+			<div class="price">
+				<i class="fa fa-home"></i>For Sale
+				<span>$846,000</span>
+			</div>
+			<div class="info">
+				<h3>
+					<a href="properties-detail.html">Single Family Townhouse</a>
+					<small>Cobble Hill, New York</small>
+				</h3>
+				<p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.</p>
+
+				<ul class="amenities">
+					<li><i class="icon-area"></i> 1580 Sq Ft</li>
+					<li><i class="icon-bedrooms"></i> 2</li>
+					<li><i class="icon-bathrooms"></i> 2</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="item col-md-4"><!-- Set width to 4 columns for grid view mode only -->
+			<div class="image">
+				<a href="properties-detail.html">
+					<span class="btn btn-default"><i class="fa fa-file-o"></i> Details</span>
+				</a>
+				<img src="http://placehold.it/760x670" alt="" />
+			</div>
+			<div class="price">
+				<i class="fa fa-home"></i>For Rent
+				<span>$1,500</span>
+			</div>
+			<div class="info">
+				<h3>
+					<a href="properties-detail.html">3 bedroom villa with garage for rent</a>
+					<small>Bal Harbour, Florida</small>
+				</h3>
+				<p>Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.</p>
+
+				<ul class="amenities">
+					<li><i class="icon-area"></i> 2000 Sq Ft</li>
+					<li><i class="icon-bedrooms"></i> 3</li>
+					<li><i class="icon-bathrooms"></i> 2</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END PROPERTY LISTING -->
+
+
+<!-- BEGIN PAGINATION -->
+<div class="pagination">
+	<ul id="previous">
+		<li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+	</ul>
+	<ul>
+		<li class="active"><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+	</ul>
+	<ul id="next">
+		<li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+	</ul>
+</div>
+<!-- END PAGINATION -->
+
+</div>
+<!-- END MAIN CONTENT -->
